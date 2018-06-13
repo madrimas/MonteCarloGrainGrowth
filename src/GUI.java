@@ -39,7 +39,7 @@ class GUI {
     private Map<Integer, Color> ID_Color = new HashMap<>();
     private List<ColorRGB> colorRGBList = new LinkedList<>();
 
-    Random generator = new Random();
+    private Random generator = new Random();
 
     private MouseListener mouseListener = new MouseListener() {
 

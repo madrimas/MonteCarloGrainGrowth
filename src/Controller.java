@@ -8,7 +8,7 @@ class Controller {
     int[][] energy;
     Map<Integer, Integer> ID = new HashMap<>();
     private int[][] tab = new int[3][3];
-    Random generator = new Random();
+    private Random generator = new Random();
 
     Controller(int n, int m) {
         this.n = n;
